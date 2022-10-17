@@ -1,0 +1,41 @@
+﻿body {
+}
+
+.top {
+    background-color: darkgreen;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: 'Lucida Sans';
+    color: white;
+}
+.content {
+    align-content: center;
+    text-align: center;
+}
+.text {
+    background-color: grey;
+    color: white;
+    font-family: 'Lucida Sans';
+}
+h4 {
+    font-family: 'Lucida Sans';
+}
+h2 {
+    font-family: 'Lucida Sans';
+}
+.button {
+    background-color: darkgreen;
+    font-family: 'Lucida Sans';
+}
+a {
+    color: white;
+    font-size: medium;
+    text-decoration: none;
+}
+.buttondiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

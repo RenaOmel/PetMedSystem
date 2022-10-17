@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PetMed.master.cs" Inherits="PetMedSystem.PetMed" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="PetMedStyle.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="top">
+                <h1 color="white" runat="server">Pet Meds 
+                    <asp:Image class="image" runat="server" src="http://www.clker.com/cliparts/l/t/O/w/K/C/white-paw-print-hi.png" Height="26px" Width="26px" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Default.aspx">Update Prescription</a>
+                    &nbsp;
+                    <a href="OrderPrescription.aspx">Order Prescription</a>
+                    &nbsp;
+                    <a href="MessageVet.aspx">Message Vet</a>
+                </h1>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
